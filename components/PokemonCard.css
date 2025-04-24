@@ -1,0 +1,76 @@
+.card {
+    background-color: white;
+    border-radius: 16px;
+    padding: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 0.5rem;
+  }
+  
+  .sprite-container {
+    width: 128px;
+    height: 128px;
+    margin: 0 auto 0.5rem;
+  }
+  
+  .sprite {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  .type-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .type-badge {
+    color: white;
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 9999px;
+    text-transform: capitalize;
+  }
+  
+  /* Ejemplo de colores por tipo */
+  .type-badge.fire { background-color: #f87171; }
+  .type-badge.water { background-color: #60a5fa; }
+  .type-badge.grass { background-color: #4ade80; }
+  .type-badge.electric { background-color: #fde047; color: #000; }
+  .type-badge.poison { background-color: #a78bfa; }
+  .type-badge.flying { background-color: #818cf8; }
+  .type-badge.bug { background-color: #84cc16; }
+  .type-badge.normal { background-color: #9ca3af; }
+  .type-badge.fairy { background-color: #f9a8d4; }
+  .type-badge.ground { background-color: #fcd34d; color: #000; }
+  .type-badge.rock { background-color: #a8a29e; }
+  .type-badge.steel { background-color: #94a3b8; }
+  .type-badge.ice { background-color: #67e8f9; color: #000; }
+  .type-badge.dragon { background-color: #8b5cf6; }
+  .type-badge.ghost { background-color: #4b5563; }
+  .type-badge.psychic { background-color: #f472b6; }
+  .type-badge.dark { background-color: #1f2937; }
+  .type-badge.fighting { background-color: #f97316; }
+  
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.25rem;
+    margin-top: 0.5rem;
+  }
+  
+  .stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
